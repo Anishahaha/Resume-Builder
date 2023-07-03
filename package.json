@@ -25,7 +25,8 @@
     "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
-    "dev": "webpack serve --config=./configs/webpack.devConfig.js"
+    "dev": "webpack serve --config=./configs/webpack.devConfig.js",
+    "build": "webpack"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
